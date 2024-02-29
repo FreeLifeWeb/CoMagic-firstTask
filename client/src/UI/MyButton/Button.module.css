@@ -1,0 +1,36 @@
+.myButton {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 170px;
+    height: 32px;
+    z-index: 0;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+
+.myButton:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.myButton::before {
+    border-radius: 10px;
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 50%;
+    background-color:var(--button-color, #7572d5);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+}

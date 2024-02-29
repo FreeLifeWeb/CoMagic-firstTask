@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #7572d5;
+    padding: 10px;
+}
+
+.navbarList {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.navbarList a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbarList a:hover {
+    background-color: #555;
+}

@@ -1,0 +1,21 @@
+.input {
+    width: 100%;
+    border: 2px solid#7572d5;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 7px 15px;
+    margin-bottom: 30px;
+    color: #252527;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.input::placeholder {
+    color: #495057;
+    text-transform: capitalize;
+}
+
+.input:focus-visible {
+    outline: 4px solid #7572d5;
+}
